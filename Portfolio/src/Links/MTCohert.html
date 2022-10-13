@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)http://127.0.0.1:5501/she-codes-cohort/Exercise2.HTML/Index2.HTML -->
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2021 Cohert</title>
+
+    <link rel="stylesheet" href="./2021 Cohert_files/styless1.css" />
+    <title>She Codes</title>
+    
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><h1>She Codes</h1></a>
+
+      <nav id="selected">
+        <a href="https://shecodes.com.au/"> Coders </a>
+        <a href="">Mentors</a>
+        <a href="">Partners</a>
+        <a href="">Blog</a>
+        <a href="">Contact</a>
+        <button type="submit"><img src="search.png" id="search" /></button>
+      </nav>
+    </header>
+    <div id="main_box">
+      <div>
+        <h3 id="heading_center">2022 Cohort</h3>
+      </div>
+
+      <div id="background">
+        <div class="column">
+          <img src="./2021 Cohert_files/chilli.jpg" />
+          <h4>Chilli, <span style="color: lightgray">She Codes</span></h4>
+          <h6>Plus, Brisbane</h6>
+          <p>Passionate about making a positive contribution everyday</p>
+        </div>
+
+      <div class="column">
+        <img src="./2021 Cohert_files/ivy.jpg" />
+        <h4>Ivy, <span style="color: lightgray"> She Codes </span> </h4>
+        <h6>Flash, Perth</h6>
+        <p>Feeling empowered to have a career that has real impact.</p>
+      </div>
+
+      <div class="column">
+        <img src="./2021 Cohert_files/remus.jpg" />
+        <h4>Remus, <span style="color: lightgray"> He Codes </span> </h4>
+        <h6>Workshop, Adelaide</h6>
+        <p>Expanding opportunities to be future skill-ready.</p>
+      </div>
+
+      <div class="column">
+        <img src="./2021 Cohert_files/tedric.jpg" />
+        <h4>Tedric, <span style="color: lightgray"> He Codes </span> </h4>
+        <h6>Plus, Perth</h6>
+        <p>
+          With his tech journey starting again, he has new roles and new goals.
+        </p>
+      </div>
+
+      <div class="column">
+        <img src="./2021 Cohert_files/princi.jpg" />
+        <h4>Princi, <span style="color: lightgray"> He Codes </span> </h4>
+        <h6>Plus, Pilbara</h6>
+        <p>
+          I'm excited for the opportunity to continue to connect with
+          like-minded people.
+        </p>
+      </div>
+
+      <div class="column">
+        <img src="./2021 Cohert_files/izzy.jpg" />
+        <h4>Izzy, <span style="color: lightgray">  She Codes  </span></h4>
+        <h6>Workshop, Brisbane</h6>
+        <p>
+          I learned a variety of different coding skills and got a taste of all
+          of the possibilities.
+        </p>
+      </div>
+    </div>
+
+    <!-- Code injected by live-server -->
+    <script>
+      // <![CDATA[  <-- For SVG support
+      if ("WebSocket" in window) {
+        (function () {
+          function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName("link"));
+            var head = document.getElementsByTagName("head")[0];
+            for (var i = 0; i < sheets.length; ++i) {
+              var elem = sheets[i];
+              var parent = elem.parentElement || head;
+              parent.removeChild(elem);
+              var rel = elem.rel;
+              if (
+                (elem.href && typeof rel != "string") ||
+                rel.length == 0 ||
+                rel.toLowerCase() == "stylesheet"
+              ) {
+                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
+                elem.href =
+                  url +
+                  (url.indexOf("?") >= 0 ? "&" : "?") +
+                  "_cacheOverride=" +
+                  new Date().valueOf();
+              }
+              parent.appendChild(elem);
+            }
+          }
+          var protocol =
+            window.location.protocol === "http:" ? "ws://" : "wss://";
+          var address =
+            protocol + window.location.host + window.location.pathname + "/ws";
+          var socket = new WebSocket(address);
+          socket.onmessage = function (msg) {
+            if (msg.data == "reload") window.location.reload();
+            else if (msg.data == "refreshcss") refreshCSS();
+          };
+          if (
+            sessionStorage &&
+            !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
+          ) {
+            console.log("Live reload enabled.");
+            sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
+          }
+        })();
+      } else {
+        console.error(
+          "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
+        );
+      }
+      // ]]>
+    </script>
+  </body>
+</html>
